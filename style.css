@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+}
+
+.buttons {
+  margin: auto;
+  background-color: rgb(83, 127, 187);
+  width: 424px;
+  height: 527px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn {
+  margin-left: 2.5px;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  color: rgb(6, 57, 125);
+  text-align: center;
+  border: solid rgb(30, 36, 122);
+  cursor: pointer;
+  line-height: 80px;
+  border-radius: 100%;
+  background-color: rgb(254, 233, 112);
+  font-family: "Montserrat", sans-serif;
+}
+.btn:hover {
+  background-color: rgb(214, 194, 82);
+}
+
+.title {
+  width: 425px;
+  color: rgb(254, 233, 112);
+  margin: auto;
+  background-color: rgb(83, 127, 187);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.screen {
+  width: 420px;
+  color: rgb(6, 57, 125);
+  margin: auto;
+  background-color: rgb(254, 233, 112);
+  font-size: 50px;
+  text-align: center;
+  border: solid rgb(30, 36, 122);
+  font-family: "Montserrat", sans-serif;
+}
+
+.ac {
+  width: 420px;
+  border-radius: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .btn {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: rgb(6, 57, 125);
+    text-align: center;
+    border: solid rgb(30, 36, 122);
+    cursor: pointer;
+    line-height: 30px;
+    border-radius: 100%;
+    background-color: rgb(254, 233, 112);
+  }
+  .buttons {
+    margin: auto;
+    background-color: rgb(83, 127, 187);
+    width: 224px;
+    height: 277px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .title {
+    width: 222px;
+    color: rgb(254, 233, 112);
+    margin: auto;
+    background-color: rgb(83, 127, 187);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .screen {
+    width: 218px;
+    color: rgb(6, 57, 125);
+    margin: auto;
+    background-color: rgb(254, 233, 112);
+    font-size: 25px;
+    text-align: center;
+    border: solid rgb(32, 25, 126);
+  }
+
+  .ac {
+    width: 224px;
+    border-radius: 0;
+  }
+}
